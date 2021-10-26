@@ -1,3 +1,12 @@
 body{
   background-color: Orange;
 }
+#challenge{
+  color: Red;
+}
+#results{
+  color: Blue;
+}
+p{
+  font-size: 16px;
+}
