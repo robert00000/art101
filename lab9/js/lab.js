@@ -10,6 +10,7 @@
  //Creates text for the html file to show.
     outputEl.innerHTML = "The html will decide your fate.";
     outputEl.style.fontSize = "28px"; //Changes the style of the output and in this case the font size of the text.
+    outputEl.style.fontFamily = "Impact";
 //This creates the forst element
  var new1El = document.createElement("p");
  //Creates text for the html file to show.
