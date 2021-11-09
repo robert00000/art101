@@ -1,8 +1,13 @@
 .special{
-  color: white;
+  width: 300px;
+  border: 15px solid white;
+  padding: 50px;
+  margin: 20px;
+  color: brown;
+  background-color: tan;
 }
 .size{
-  font-size: 20px;
+  font-size: 40px;
 }
 .padding{
   width: 300px;
