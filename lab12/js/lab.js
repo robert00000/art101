@@ -36,5 +36,4 @@ $("#button").click(function(){
   //This changes the text of the id in the html page.
   $("#house").text("House " + house + "!");
 
-  $(this).parent().toggleClass("background");
 })
