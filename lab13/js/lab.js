@@ -5,10 +5,11 @@
  *
  **/
 outputEl = document.getElementById("output");
-$("#challenge").toggleClass("padding")
-$("#problem").toggleClass("padding")
-$("#results").toggleClass("padding")
-$("#output").toggleClass("padding")
+$("#challenge").toggleClass("padding");
+$("#problem").toggleClass("padding");
+$("#results").toggleClass("padding");
+$("#output").toggleClass("padding");
+$("#button").toggleClass("center");
 //This outputs the code to the page
 function outputToPage(str) {
     newEl = document.createElement("p");
@@ -47,6 +48,7 @@ function mod(){
   }
   //$("#output").text("Number " + mod());
 }
+
 $("#button").click(function(){
   console.log("Button pushed")
   outputEl.innerHTML = "";
