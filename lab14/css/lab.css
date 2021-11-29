@@ -1,0 +1,11 @@
+.padding{
+  width: 300px;
+  border: 15px solid brown;
+  padding: 50px;
+  margin: 20px;
+  padding-top: 20px;
+  padding-right: 10px;
+  padding-bottom: 20px;
+  padding-left: 10px;
+  background-color: tan;
+}
