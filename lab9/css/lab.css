@@ -13,3 +13,18 @@ h2{
 #results{
   color: yellow;
 }
+.fontSize{
+  font-size: 28px;
+  font-family: Impact;
+}
+#content{
+  width: 300px;
+  border: 15px solid tan;
+  padding: 50px;
+  margin: 20px;
+  padding-top: 20px;
+  padding-right: 10px;
+  padding-bottom: 20px;
+  padding-left: 10px;
+  background-color: orange;
+}
