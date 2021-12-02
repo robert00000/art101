@@ -41,7 +41,6 @@ $("#activate").click(function(){
 
             $("#image").attr("src", imgUrl, "alt", alt);
 
-            $("#image").attr("alt", alt);
             $("#alt").text(alt);
           //  $("#alt").text(alt);
         },
