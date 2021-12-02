@@ -6,10 +6,11 @@
  **/
  var myUrl = "https://xkcd.com/2416/info.0.json";
  $("#content").toggleClass("padding");
-
+$("#output").toggleClass("font");
+$("#alt").toggleClass("font");
 $("#activate").click(function(){
   //This gets the comic from the site as well as it's title.
-  
+
   var comicObj = $.ajax({
          // The URL for the request (from the api docs)
          url: myUrl,
@@ -34,8 +35,15 @@ $("#activate").click(function(){
             var title = data.title;
             var alt = data.alt;
 
-            $("#output").prepend(title);
+            //$("#output").text(title);
+            $("#image").attr("title", title);
+            $("#output").text(title);
+
             $("#image").attr("src", imgUrl, "alt", alt);
+
+            $("#image").attr("alt", alt);
+            $("#alt").text(alt);
+          //  $("#alt").text(alt);
         },
          // What we do if the api call fails
         error: function (jqXHR, textStatus, errorThrown) {
